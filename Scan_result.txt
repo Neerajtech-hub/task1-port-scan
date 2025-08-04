@@ -1,0 +1,37 @@
+# Nmap 7.94 scan initiated Mon Aug  4 12:57:43 2025 as: nmap -sS -oN Scan_result.txt 192.168.139.0/24
+Nmap scan report for 192.168.139.67
+Host is up (0.00044s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+7070/tcp open  realserver
+MAC Address: C4:D0:E3:3E:AC:E2 (Intel Corporate)
+
+Nmap scan report for 192.168.139.96
+Host is up (0.0066s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 5E:54:44:8C:C8:31 (Unknown)
+
+Nmap scan report for 192.168.139.158
+Host is up (0.022s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 2C:A9:F0:FD:83:59 (Guangdong Oppo Mobile Telecommunications)
+
+Nmap scan report for 192.168.139.221
+Host is up (0.0069s latency).
+All 1000 scanned ports on 192.168.139.221 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: BA:17:AE:D1:74:19 (Unknown)
+
+Nmap scan report for 192.168.139.138
+Host is up (0.0000020s latency).
+All 1000 scanned ports on 192.168.139.138 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 12:57:57 2025 -- 256 IP addresses (5 hosts up) scanned in 14.16 seconds
